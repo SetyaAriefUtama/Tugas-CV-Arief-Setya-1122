@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-title {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name-title h1 {
+    font-size: 36px;
+    color: #007BFF;
+}
+
+.name-title h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.socials a {
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column {
+    width: 60%;
+}
+
+.right-column {
+    width: 35%;
+    margin-left: 5%;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.edu-item, .exp-item {
+    margin-bottom: 20px;
+}
+
+.contact p, .skills p, .languages p {
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.html-bar {
+    width: 90%;
+    background-color: #007BFF;
+    height: 100%;
+}
+
+.css-bar {
+    width: 80%;
+    background-color: #28A745;
+    height: 100%;
+}
+
+.js-bar {
+    width: 75%;
+    background-color: #FFC107;
+    height: 100%;
+}
